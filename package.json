@@ -1,0 +1,46 @@
+{
+  "name": "@CS-LNU-Learning-Objects/exercise-bartboard",
+  "version": "1.0.0",
+  "homepage": "https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/",
+  "contributors": [
+    {
+      "name": "Johan Leitet",
+      "email": "johan.leitet@lnu.se"
+    },
+    {
+      "name": "John Häggerud",
+      "email": "john.haggerud@lnu.se"
+    },
+    {
+      "name": "Mats Loock",
+      "email": "mats.loock@lnu.se"
+    },
+    {
+      "name": "Jacob Lindehoff",
+      "email": "jacob.lindehoff@lnu.se"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CS-LNU-Learning-Objects/exercise-bartboard"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "standard": "*",
+    "standard-loader": "^6.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "bin": {},
+  "scripts": {
+    "debug": "webpack-dev-server",
+    "start": "webpack-dev-server"
+  }
+}
