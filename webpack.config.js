@@ -1,21 +1,17 @@
 var path = require('path')
 
 module.exports = {
-  entry: './client/source/js/app.js',
+  entry: './src/js/app.js',
   output: {
     filename: 'build.js',
-    path: path.resolve(__dirname, 'client/source')
+    path: path.resolve(__dirname, 'dist')
   },
   devServer: {
-    contentBase: path.join(__dirname, 'client/source'),
-    host: '0.0.0.0',
+    contentBase: path.join(__dirname, 'src'),
     port: 4000,
-    public: '10.10.10.61:4000'
+    public: 'localhost:4000'
   },
   devtool: 'cheap-eval-source-map',
-  watchOptions: {
-    poll: true
-  },
   module: {
     rules: [
       {
