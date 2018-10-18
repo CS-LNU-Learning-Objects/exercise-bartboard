@@ -1,4 +1,4 @@
-require('./bart-board')
+import './bart-board.js' // This could be done in index.html instead
 
 // This is one way of creating our Custom Elements
 let bb1 = document.createElement('bart-board')

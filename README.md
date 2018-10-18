@@ -20,4 +20,4 @@ By doing this you need to be able to tell the surroundings when the board is ful
 |  Repo | [exercise-bartboard](https://github.com/CS-LNU-Learning-Objects/exercise-bartboard) |
 | Level  | A  |
 | Keywords| DOM, event, timers, (custom elements, custom events)|
-| Solutions | [Recording Part 1 (DOM)](https://youtu.be/jBLruMu5pOs)<br>[Recording Part 2](https://youtu.be/7fAUyQJsOLQ)|
+| Solutions | [Recording Part 1 (DOM)](https://youtu.be/jBLruMu5pOs)<br>[Recording Part 2 (Custom Elements)](https://youtu.be/7fAUyQJsOLQ)|

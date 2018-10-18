@@ -1,6 +1,6 @@
 
 const template = document.createElement('template')
-template.innerHTML = `
+template.innerHTML = /* html */`
 <style>
   :host {
     background:#002418;
@@ -31,7 +31,7 @@ template.innerHTML = `
  * @class BartBoard
  * @extends {window.HTMLElement}
  */
-class BartBoard extends window.HTMLElement {
+export class BartBoard extends window.HTMLElement {
   /**
    * Creates an instance of BartBoard.
    * @memberof BartBoard
@@ -39,7 +39,7 @@ class BartBoard extends window.HTMLElement {
   constructor () {
     super()
 
-    this.attachShadow({mode: 'open'})
+    this.attachShadow({ mode: 'open' })
     this.shadowRoot.appendChild(template.content.cloneNode(true))
     this._p = this.shadowRoot.querySelector('#text')
     this._intervalID = null
@@ -138,5 +138,3 @@ class BartBoard extends window.HTMLElement {
 
 // Registers the custom event
 window.customElements.define('bart-board', BartBoard)
-
-module.exports = BartBoard
